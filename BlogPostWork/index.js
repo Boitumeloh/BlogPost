@@ -30,7 +30,7 @@ const flash = require('connect-flash');
 
 const app = new express();
 
-mongoose.connect("mongodb://localhost/my_database", {
+mongoose.connect("mongodb+srv://boitumelolefophane:<db_password>@cluster0.7g7x6.mongodb.net/my_database", {
   useNewUrlParser: true,
 });
 
