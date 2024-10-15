@@ -78,6 +78,7 @@ app.post(
 app.get("/auth/login", redirectIfAuthenticatedMiddleware, loginController);
 
 app.post(
+  
   "/users/login",
   redirectIfAuthenticatedMiddleware,
   loginUserController
